@@ -1,0 +1,94 @@
+ /* HERE we are assigning a variable the color and then use that variable..  */
+
+
+:root {
+    /* this olive color  */
+  --color1: #F7EDD4;
+  /* this is yellow */
+  --color2: #FCBA12;
+  /*   this is light blue */
+  --color3: #2E2FE3;
+   /*  This is deep blue */
+  --color4: #1414B8;
+  /*   This is black! */
+  --color5: #090934;
+
+  --font1: cursive;
+  --font2: fantasy;
+  --font3: inherit;
+  --font4: monospace;
+  --font5: sans-serif;
+  --font6: serif;
+}
+
+body
+       {
+  background-color: var(--color2);
+
+  font-family:sans-serif;
+  color: var(--color3);
+}
+
+h1 {
+  color:var(--color5);
+  font-style: italic;
+  font-family: var(--font5);
+}
+
+#skillslist{
+  columns: 3;
+}
+.sectionHeader {
+  color: var(--color2);
+  font-family: var(--font3);
+  font-style: italic;
+  font-variant-caps: small-caps;
+}
+
+#alfred{
+  text-align: center;
+  text-shadow: #090934;
+}
+/*
+#image1 {
+  height:auto;
+  width:auto;
+  float:right;
+  border:var(--color5) 10px solid;
+  border-radius: 25%;
+  display: block;
+  margin:auto;
+  max-width: 100%;
+  height: auto;
+}
+*/
+.center{
+  border:var(--color5) 10px solid;
+  border-radius: 25%;
+  display: block;
+  margin-right:auto;
+  margin-left:auto;
+  width:50%;
+
+}
+
+hr {
+  color: var(--color5);
+}
+
+.sectionHeader {
+  color:var(--color5);
+  font-style:italic;
+  font-variant: small-caps;
+
+}
+
+td.nonborder{
+  font-family:var(--cursive);
+  font-variant:small-caps;
+  padding:7px;
+  border:non;
+  vertical-align:top;
+  color:var(--color5);
+
+}
